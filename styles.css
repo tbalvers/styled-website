@@ -3,7 +3,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: Roboto, Helvetica, Arial, sans-serif;
 }
 
 .header, .footer, .hero {
@@ -98,4 +98,35 @@ button {
     border: none;
     width: fit-content;
     padding: 8px 16px 8px 16px;
+}
+
+.main {
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: column;
+    flex: 8;
+    text-align: center;
+    padding: 36px 0px;
+}
+
+.imagecards {
+    display: flex;
+    gap: 36px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    border: solid #3882f6 4px;
 }
