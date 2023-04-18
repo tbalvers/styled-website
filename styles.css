@@ -24,13 +24,13 @@ body {
 
 .header {
     display: flex;
-    padding-bottom: 36px;
+    padding-bottom: 70px;
 }
 
 .headercontent {
     display: flex;
     justify-content: space-between;
-    flex: 8;
+    flex: 7;
     padding-top: 16px;
 }
 
@@ -60,7 +60,7 @@ a {
 }
 
 .container {
-    flex: 8;
+    flex: 7;
     display: flex;
     gap: 36px;
     padding: 16px 0px;
@@ -161,4 +161,48 @@ button {
     font-weight: 900;
     font-size: 24px;
     font-style: normal;
+}
+
+.cta {
+    display: flex;
+    padding: 70px 0px;
+}
+
+.ctabox {
+    display: flex;
+    flex: 6;
+    background-color: #3882f6;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+    padding: 30px 100px;
+}
+
+.ctacopy {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.ctabox button {
+    border: solid white 2px;
+    height: fit-content;
+    flex: none;
+}
+
+#boldcta {
+    font-weight: bold;
+    margin: 0px;
+}
+
+#secondarycta {
+    margin: 0px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color:#E5E7EB;
+    font-size: 18px;
 }
