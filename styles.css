@@ -62,7 +62,7 @@ a {
 .container {
     flex: 7;
     display: flex;
-    gap: 36px;
+    gap: 40px;
     padding: 16px 0px;
 }
 
@@ -97,7 +97,8 @@ button {
     border-radius: 4px;
     border: none;
     width: fit-content;
-    padding: 8px 16px 8px 16px;
+    padding: 10px 25px;
+    font-weight: bold;
 }
 
 .main {
